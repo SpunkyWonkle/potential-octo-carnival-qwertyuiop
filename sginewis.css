@@ -1,0 +1,24 @@
+h3
+{
+    font-size: 25px !important;
+}
+.btn-success:hover
+{
+ background-color: yellow
+}
+ canvas {
+    animation-name: BANANA;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+ }
+
+ @keyframes BANANA {
+
+    from {box-shadow: 1px 1px 38px yellow;}
+    to{box-shadow: 1px 1px 38px rgb(85, 35, 2)}
+ }
+
+ .banana
+ {
+    background-color: yellow;
+ }
